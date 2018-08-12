@@ -1,0 +1,16 @@
+.test-main{
+    background-color:red;
+    position: relative;
+    display: inline-block;
+
+    .test-sub{
+        background-color: cyan;
+
+        &.test-sub-main{
+            background-color: palegreen;
+        }
+    }
+    
+
+}
+
